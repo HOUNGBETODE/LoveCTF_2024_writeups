@@ -4,13 +4,15 @@ The context tells us about a love story but also about a cipher mechanism.
 We know that a python library has been used with the key "Saint-Valentin" to cipher a message.
 Also we have the cipher result.
 
-============================================================================================
+==================================
+
 library = "4CJAE@4@56"
 
 chiffre = "zlp/GiKHRGogjU0WNYZo7G2NfweQzwRPykgwuC+/IoYiBHJC/bSsMYPD8PNSQ6qhz+t5Q0jdcUNuTcE=* 1uXiyTAqAlrNq05cnyHLpA==*5aKL6ToIiPl47Oev5LFBbw==*jT2KmX2pXO6BCMLasrLScg=="
 
 cle = "Saint-Valentin"
-============================================================================================
+
+===================================
 
 The challenge here is to find the library name because a ciphered one has been given.
 Going to dcode.fr, we identify potentially 3 ciphers.
