@@ -64,14 +64,19 @@ The steps you must be going on till the flag are :
 -..--.--
 -.-----."
 
-- the third output seems to be morse code but isn't, it's binary. Here a code is needed to go from that scheme to ascii representation. You can consult it in (chall.py) 
+- the third output seems to be morse code but isn't, it's binary. Here a code is needed to go from that scheme to ascii representation. You can consult it in [a_python_script](files/chall.py) 
 Running the code will give you this string : "}h51z_573a_DH_6b_scj0u_j0n_5scj0g_Nc4b_g37u@{UIRtkdA"
 
 - when reversing it looks like the flag but in some encrypted manner
 AdktRIU{@u73g_b4cN_g0jcs5_n0j_u0jcs_b6_HD_a375_z15h}
 
 - all you need now is to use a brute-force approach and recover the flag.
-dcode.fr shows us 3 more probably encryption methods and we the one which worth it is "Caesar Cipher" (part.png). 
-A simple brute force gives the flag (finding_flag.png) 
+dcode.fr shows us 3 more probably encryption methods and we the one which worth it is "Caesar Cipher".
+
+![begging_for_cipher](files/part.png)
+
+A simple brute force gives the flag.
+
+![flag_found](files/finding_flag.png)
 
 And we got the flag : LoveCTF{@f73r_m4nY_r0und5_y0u_f0und_m6_SO_l375_k15s}
