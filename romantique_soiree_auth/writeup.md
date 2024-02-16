@@ -13,4 +13,6 @@ This site 👉 https://planetcalc.com/3299/ 👈 did the job very well.
 All we need now is to abuse of that so as to discover the common idea on both Roméo and Juliette's mind.
 Take a look at [solve.py](files/solve.py) to see the exploit.
 
+![solution_script](files/solve.py)
+
 Running the exploit outputs the flag : LoveCTF{h0n3y_hu9_ki5s_@nd_m4rry_m6}
