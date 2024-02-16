@@ -18,14 +18,14 @@ coeff_juliette = -2823535369809159085473229580768274619
 coeff_romeo = 4510288216765311169122674033604378440
 
 
-# recovering the rule
+# recovering the flag
 
-asciiRule = pow(pow(c_juliette, coeff_juliette, n) * pow(c_romeo, coeff_romeo, n), 1, n)
+asciiFlag = pow(pow(c_juliette, coeff_juliette, n) * pow(c_romeo, coeff_romeo, n), 1, n)
 
-inversedRule = long_to_bytes(asciiRule)
+inversedFlag = long_to_bytes(asciiFlag)
 
 
-# the retrieved string (inverseRule) was reversed that's the reason of the following lines
+# the retrieved string (inverseFlag) was reversed that's the reason of the following lines
 
-trueRule = inversedRule[::-1]
-print(trueRule)
+trueFlag = inversedFlag[::-1]
+print(trueFlag)
